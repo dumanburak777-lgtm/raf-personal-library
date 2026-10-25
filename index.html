@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0c1010" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'" />
+  <meta name="description" content="İzlediklerin ve okudukların için kişisel, sakin bir arşiv." />
+  <title>Raf — kişisel izleme ve okuma arşivi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#home" aria-label="Raf ana sayfa"><span class="brand-mark">r.</span><span class="brand-name">raf<span class="brand-dot">.</span></span></a>
+      <div class="side-label">KÜTÜPHANE</div>
+      <nav id="category-nav" class="category-nav" aria-label="Koleksiyonlar"></nav>
+      <button class="nav-item" data-view="forum"><span class="nav-icon">◌</span><span>Forum sohbetleri</span><span class="nav-count">↗</span></button>
+      <div class="side-label side-label-spaced">SENİN ALANIN</div>
+      <button class="nav-item" data-view="favorites"><span class="nav-icon">♡</span><span>Favoriler</span><span class="nav-count" id="favorite-count">0</span></button>
+      <button class="nav-item" data-view="stats"><span class="nav-icon">◷</span><span>İz / istatistik</span></button>
+      <div class="sidebar-bottom"><div class="quote-mark">“</div><p>Biriktirdiğin hikâyeler, biraz da sensin.</p><span>RAF NOTU · 01</span></div>
+    </aside>
+    <main class="main-area">
+      <header class="topbar">
+        <button id="menu-toggle" class="icon-button menu-toggle" aria-label="Menüyü aç veya gizle">☰</button>
+        <div class="crumb"><span class="crumb-kicker">KİŞİSEL ARŞİVİN</span><span class="crumb-slash">/</span><span id="current-crumb">Genel bakış</span></div>
+        <div class="top-actions"><label class="search-box"><span>⌕</span><input id="search-input" type="search" placeholder="Arşivinde ara..." aria-label="Arşivinde ara"/><kbd>⌘ K</kbd></label><select id="language-select" class="lang-select" aria-label="Uygulama dili"><option value="tr">TR</option><option value="en">EN</option></select><button class="icon-button" id="account-button" aria-label="Hesap">◉</button><button class="avatar" id="avatar-button" aria-label="Profil">B</button></div>
+      </header>
+      <div class="page-content" id="page-content"></div>
+      <footer class="site-footer"><div class="footer-brand"><span class="brand-mark small">r.</span><span>Hikâyeler sende kalır.</span></div><div class="footer-links"><button data-legal="privacy">Gizlilik</button><button data-legal="terms">Kullanım koşulları</button><button data-legal="rights">Haklarım</button><a href="mailto:.......">İletişim · .......</a></div><span class="footer-copy">© 2026 RAF · KİŞİSEL KULLANIM</span></footer>
+    </main>
+  </div>
+  <div id="modal-root"></div>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+{
+  "name": "raf-personal-library",
+  "version": "1.0.1",
+  "description": "A private, offline-first desktop library for films, series, anime, manga and books.",
+  "author": "RAF contributors",
+  "main": "main.cjs",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist:linux": "bash build-linux-deb.sh",
+    "dist:linux-appimage": "electron-builder --linux AppImage",
+    "dist:win": "electron-builder --win nsis",
+    "dist:mac": "electron-builder --mac dmg"
+  },
+  "devDependencies": {
+    "electron": "^45.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "app.raf.library",
+    "productName": "RAF",
+    "electronDist": "node_modules/electron/dist",
+    "directories": {
+      "output": "outputs/desktop"
+    },
+    "files": [
+      "index.html",
+      "style.css",
+      "app.js",
+      "main.cjs",
+      "preload.cjs",
+      "package.json",
+      "LICENSE",
+      "README.md"
+    ],
+    "linux": {
+      "category": "Utility",
+      "maintainer": "RAF contributors",
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "desktop": {
+        "entry": {
+          "Name": "RAF",
+          "Comment": "Personal media library"
+        }
+      }
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ]
+    }
+  }
+}
