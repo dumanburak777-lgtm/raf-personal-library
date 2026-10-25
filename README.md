@@ -2,6 +2,12 @@
 
 RAF is an open-source desktop library for tracking films, series, anime, donghua, manga, light novels and books. It is designed for one computer and works offline by default. The project is published under the MIT License.
 
+## About the project
+
+Bu proje, yayınlanana kadar yapay zekâ desteğiyle hazırlanmıştır.
+
+This project was prepared with AI assistance through its first public release.
+
 > **Privacy summary:** The local library does not sync to a RAF server. Google sign-in and Discourse forum connections are optional online features; enabling them sends the corresponding authentication or forum data to those services. The in-app privacy notice still has a `.......` data-controller identity placeholder and is a draft, not a ready-made legal policy. The public contact address shown in the app footer is b74433342@gmail.com. A distributor must complete the data-controller identity and obtain appropriate legal review before presenting the notice as their own.
 
 ## Run from source
