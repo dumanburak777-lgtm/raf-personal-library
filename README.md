@@ -2,7 +2,7 @@
 
 RAF is an open-source desktop library for tracking films, series, anime, donghua, manga, light novels and books. It is designed for one computer and works offline by default. The project is published under the MIT License.
 
-> **Privacy summary:** The local library does not sync to a RAF server. Google sign-in and Discourse forum connections are optional online features; enabling them sends the corresponding authentication or forum data to those services. The app's privacy notice still contains `.......` contact placeholders and is a draft, not a ready-made legal policy. A distributor must replace those details and obtain appropriate legal review before presenting it as their own notice.
+> **Privacy summary:** The local library does not sync to a RAF server. Google sign-in and Discourse forum connections are optional online features; enabling them sends the corresponding authentication or forum data to those services. The in-app privacy notice still has a `.......` data-controller identity placeholder and is a draft, not a ready-made legal policy. The public contact address shown in the app footer is dumanburak777@gmail.com. A distributor must complete the data-controller identity and obtain appropriate legal review before presenting the notice as their own.
 
 ## Run from source
 
@@ -38,11 +38,11 @@ Online data is subject to Google's and the selected forum's own terms and privac
 
 ## Languages
 
-Turkish is the primary interface language. English is available in the interface language selector. Media titles and notes remain exactly as entered. Legal notices are currently provided in Turkish.
+Turkish is the primary interface language. English is available in the interface language selector. Media titles and notes remain exactly as entered. Privacy, terms, and rights notices are available in Turkish and English.
 
 ## Legal notice
 
-The in-app privacy notice describes this local-first implementation and contains links to official KVKK sources. It still includes `.......` data-controller/contact placeholders and is not legal advice or a complete compliance package. Replace those details and obtain jurisdiction-specific legal review before distributing the app under an organization or collecting data from others. A personal offline installation has no central RAF account database. Google and forum connections are optional; when enabled, data is sent to the selected service as described above.
+The in-app privacy notice describes this local-first implementation and contains links to official KVKK sources. It still includes a `.......` data-controller identity placeholder and is not legal advice or a complete compliance package. Complete that identity and obtain jurisdiction-specific legal review before distributing the app under an organization or collecting data from others. A personal offline installation has no central RAF account database. Google and forum connections are optional; when enabled, data is sent to the selected service as described above.
 
 ## License
 
